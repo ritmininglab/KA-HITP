@@ -11,10 +11,6 @@ Specification of dependencies：
 The code is written in Python 3.8. Based on the specified software version, OpenCV 3.0, scipy 1.5, Keras 2.0, Tensorflow 2.5, scikit-image 0.17, scikit-learn 0.23 libraries are required for the environment setting. All files need to be on the same directory in order for the algorithms to work.
 
 
-A demo video is provided to illustrate the usage of the proposed model.
-For user interaction, a pop-up window will be generated to allow the user to type in the corresponding words (separated by commas) to guide the caption generation process. The keywords are reordered and the prediction of candidate captions based on the current image are printed on the command window.
-Then the model is updated based on the new data, and proceeds to make automated prediction of keywords and candidate captions on another image. Results are printed on the command window.
-
 
 To run the algorithm, change the path to the current directory in the command window, and run the [main.py] file:
 
